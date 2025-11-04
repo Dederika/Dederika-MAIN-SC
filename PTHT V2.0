@@ -1,1 +1,2 @@
-LogToConsole("hai")
+return (function(...) local v = {'VEc5blZHOURiMjV6YjJ4bEtDSm9hR2dpS1E9PQ=='} local s = table.concat(v) local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/' local function doOwkedMm(d) local t,buf,bc={},0,0 for c in d:gmatch('[%w+/=]') do if c~='=' then local v=b:find(c)-1 if not v then return false end buf=(buf<<6)|v bc=bc+6 while bc>=8 do bc=bc-8 t[#t+1]=string.char((buf>>bc)&255) end end end return table.concat(t) end local toMgWnMnNN = s toMgWnMnNN = doOwkedMm(toMgWnMnNN) toMgWnMnNN = doOwkedMm(toMgWnMnNN) local dokKfkRkwm = load or loadstring local fn,err = dokKfkRkwm(toMgWnMnNN) if not fn then error('Unknown Error') end return fn() end)()
+
